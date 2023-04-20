@@ -75,7 +75,7 @@ $result = mysqli_query($conn, $sql);
                 <div class="col m-auto">
                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-        <a href="applied.php">Your Applied Companies</a> 
+        <a href="stuapplied.php">Your Applied Companies</a> 
                     <div class="card mt-5">
                       
                     
