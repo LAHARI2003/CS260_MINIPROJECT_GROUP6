@@ -52,8 +52,9 @@ $sql2 = "SELECT * FROM details WHERE rollno='$rollno'";
 $sql = "SELECT * FROM company WHERE cpicut <= $cpi AND ctc >= $ctc";
 $result = mysqli_query($conn, $sql);
 
+ 
 // Close the database connection
-mysqli_close($conn);
+
 ?>
 
 <!DOCTYPE html>
@@ -68,13 +69,21 @@ mysqli_close($conn);
 <body class="bg-dark">
 
         <div class="container">
-       
+         
             <div class="row">
+           
                 <div class="col m-auto">
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <a href="applied.php">Your Applied Companies</a> 
                     <div class="card mt-5">
+                      
+                    
                         <table class="table table-bordered">
+
+                        <h1> The companies you are eligible for </h1>
                             <tr>
-                                <td><b> Comapny ID </b></td>
+                                <td><b> Company ID </b></td>
                                 <td><b> Company </b></td>
                                 <td><b> Role</b></td>
                                 <td><b> Branch </b> </td>
@@ -90,27 +99,34 @@ mysqli_close($conn);
                                         $branch_res = $row['branch_res'];
                                         $cpicut = $row['cpicut'];
                                         $ctc = $row['ctc'];
-                                        
+
+                                       
+
+                                    
                             ?>
-                                    <tr>
-                                        <td><?php echo $jobid ?></td>
-                                        <td><?php echo $comp_name ?></td>
+                                          
+                                          <tr>
+                                        <td><?php echo  $jobid ?></td>
+                                        <td><?php echo $comp_name?></td>
                                         <td><?php echo $comp_roles ?></td>
-                                        <td><?php echo $branch_res ?></td>
+                                        <td><?php echo $branch_res?></td>
                                         <td><?php echo $cpicut ?></td>
                                         <td><?php echo $ctc ?></td>
-                                        <td><a href="stuapply.php">Apply</a></td>
+                                        <td><a href=<?php  echo  "stuapply.php?jobid=".$jobid?>>Apply</a></td>
                                         
-                                    </tr>        
-                            <?php 
-                                    }  
-                            ?>                                                                      
+                                    </tr>
+                                    <?php
+                                    }
+                                    ?> 
+                                                                             
 
                         </table>
                     </div>
                 </div>
             </div>
-            <a href="stuwelcome.php" class="btn btn-primary" text-align=center>Go Back</a>          
+            <a href="stuwelcome.php" class="btn btn-primary" text-align=center>Go Back</a>  
+            &emsp;&emsp;&emsp;   
+              
         </div>
 </body>
 </html>
