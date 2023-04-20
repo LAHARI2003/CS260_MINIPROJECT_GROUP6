@@ -80,16 +80,12 @@ foreach ($data2 as $row) {
   $y_data2[] = $row['count'];
 }
 
-$sql3 = "SELECT company, COUNT(*) AS count FROM details WHERE placed ='Yes' ORDER BY company DESC";
+$sql3 = "SELECT company, COUNT(*) AS count
+FROM details WHERE company = 'TCS' AND placed = 'Yes' AND  year >= DATE_SUB(NOW(), INTERVAL 3 year)";
 $result3 = mysqli_query($conn, $sql3);
-if($result3){
-  echo "jasmine";
-}
-else{
-  echo "sahithi";
-}
+
 $data3 = array();
-echo mysqli_num_rows($result3);
+//echo mysqli_num_rows($result3);
 
 if(mysqli_num_rows($result3) > 0) {
     while ($row = mysqli_fetch_assoc($result3)) {
