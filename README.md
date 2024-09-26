@@ -4,15 +4,10 @@ Our website is designed for:Students sitting for placements,Companies approachin
 Main Page Features
 Multiple login options for different users:
 Student
-
 Company
-
 Admin
-
 TPC Officer
-
 Alumni
-
 Option to see trends in IIT Patna.
 
 **Common Features**
@@ -35,7 +30,6 @@ Queries are directly sent to TPC for resolution.
 Upload and display their photo.
 
 **Company Features**
-
 Login and Role Offering:
 Companies can log in and:
 Provide details about the roles they are offering.
@@ -44,7 +38,6 @@ View details of students who have applied to their company.
 Send queries to TPC, which are directly sent to the TPC officer's page for resolution.
 
 **TPC Officer Features**
-
 Statistics and Data Access:
 TPC officers have access to statistics about:
 The number of students placed.
@@ -55,7 +48,6 @@ TPC officers can sort and filter student and company details based on various at
 Example: View the number of students placed in a particular company or check the highest package offered to students.
 
 **Admin Features**
-
 Login:
 Admins have pre-assigned login credentials.
 If the admin forgets their password, a reset mail is sent to their webmail.
