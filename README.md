@@ -1,13 +1,61 @@
-TRAINING AND PLACEMENT CELL WEBSITE
-
-Our website is basically designed for students sitting for placements , companies approaching to the college for recruiting the students, and for TPC officers to maintain a record of students  getting placed and we also have database of alumni of our campus their current job  field of work.
-In the main page we have multiple login options for users to login such as Student, company, admin ,tpc officer,alumini and a option to see the trends in IIT PATNA.
-And discussing about the basic features of the whole website ,For all the registration and login pages we have password length restriction and password char restriction. And we have a facility of forget password option if chosen a mail will be sent to the users mail id for resseting the password.
-And in our website Since there is no registration option to TPC officer and Admin as they all will be having privileges which should not be accessed by any one.So we are storing their credentials manually and giving them forget password option.
-First let us walk through  how a student can utilize this website ,He registers himself and log’s in the website and he has the options like giving his details to sit in placements ,apply to the companies he is eligible according to his cpi, ask queries TPC Officer if he has any, queries those will be directly sent to TPC to resolve the issues, and additionally his photo will also be displayed once he upload his photos in the details option  given to the student
-Now let us walk through the company login ,they have option to give all the details about the role they are offering,by setting a cpi restriction  and even the mode of interview, and they are also able to see the details of Students who have applied to their company. And they also have option to send queries to the TPC officer which will be directly sent to the tpc officers page for resolving.
-TPC officer, they have the whole statistics of placements of number of students placed and no of students not placed. Not only stats but also the details of everyone So that he could see the details of students and invite companies accordingly. He is given options to sort the student details and company details as he desire to check according to any attribute present. Example , If he wants to how many students are placed in particular company or to see the whats  the highest pacakage of the Students placed.
-Admin Login Credentials is given already to him and using that he can login to the portal . In case he forgets his password , we are giving Forgot Password option by clicking on which he will get mail consisting of his password. He can login using that password and his webmail.
-Admin is the one who have knowledge of Database Management System. He knows how to extract, insert, update, delete etc. from database. So we are giving him an option to get any information  he wants from database by just writing one sql query. If TPC officer need more data info which is not present in his section he can contact to admin to get that information .
-Now coming to Alumni, An Alumnus need to login before entering his details. For logging in he need to enter his roll number and password which is might be present in student registration table. In case he forgets his password or he doesn’t have his roll number and other information present in student registration database, we are giving one option to get his password. On clicking and then entering his email  he will get one link in the mail which will be redirected to reset/create  password page. If that alumnus is not having his data in tpc student details table he will be having his information like roll number in college student database. So we will match the given rollno with that and created password will be inserted there.  
-After Logging in Alumni will enter his job or higher education details in the alumni form and that will be inserted into a table of database. This will make easier to store and maintain alumni records for our college. There are update and delete options also given so that an alumnus can update his profile if he chages his job and can also delete it
+**Training and Placement Cell Website**
+Our website is designed for:Students sitting for placements,Companies approaching the college for recruitment,TPC officers maintaining placement records,Alumni of the campus and their current job field or work details.
+Main Page Features
+Multiple login options for different users:
+Student
+Company
+Admin
+TPC Officer
+Alumni
+Option to see trends in IIT Patna.
+**Common Features**
+Password Restrictions: All registration and login pages have password length and character restrictions.
+Forget Password Option: A reset password mail is sent to the user's registered email.
+Admin and TPC Officer Access:
+No registration option for TPC officers and Admins as they have special privileges.
+Their credentials are stored manually, and they are also provided with the forget password option.
+**Student Features**
+Registration and Login:
+Students can register and log in to the website.
+After logging in, the student can:
+Provide details to sit for placements.
+Apply to companies based on eligibility (CPI).
+Ask queries to the TPC Officer.
+Queries are directly sent to TPC for resolution.
+Upload and display their photo.
+**Company Features**
+Login and Role Offering:
+Companies can log in and:
+Provide details about the roles they are offering.
+Set CPI restrictions and define the mode of interview.
+View details of students who have applied to their company.
+Send queries to TPC, which are directly sent to the TPC officer's page for resolution.
+**TPC Officer Features**
+Statistics and Data Access:
+TPC officers have access to statistics about:
+The number of students placed.
+The number of students not placed.
+Full details of all students and companies to help them manage invitations accordingly.
+Sorting and Filtering:
+TPC officers can sort and filter student and company details based on various attributes.
+Example: View the number of students placed in a particular company or check the highest package offered to students.
+**Admin Features**
+Login:
+Admins have pre-assigned login credentials.
+If the admin forgets their password, a reset mail is sent to their webmail.
+Database Management:
+Admins can perform database operations:
+Extract, Insert, Update, Delete information using SQL queries.
+They can provide additional information to the TPC Officer if requested.
+**Alumni Features**
+Login and Registration:
+Alumni can log in using their roll number and password.
+In case they forget their password or don't have access to their registration data, they can:
+Reset the password via email.
+If the alumnus' data is not present in the TPC student details table, their roll number is matched with the college student database to enable password creation.
+Alumni Form:
+After logging in, alumni can enter their job or higher education details.
+These details are inserted into the alumni records table.
+Update and Delete Options: Alumni can:
+Update their profile if they change jobs.
+Delete their profile if necessary.
