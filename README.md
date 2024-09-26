@@ -1,5 +1,4 @@
 **Training and Placement Cell Website**
-
 Our website is designed for:Students sitting for placements,Companies approaching the college for recruitment,TPC officers maintaining placement records,Alumni of the campus and their current job field or work details.
 Main Page Features
 Multiple login options for different users:
@@ -11,7 +10,6 @@ Alumni
 Option to see trends in IIT Patna.
 
 **Common Features**
-
 Password Restrictions: All registration and login pages have password length and character restrictions.
 Forget Password Option: A reset password mail is sent to the user's registered email.
 Admin and TPC Officer Access:
@@ -19,7 +17,6 @@ No registration option for TPC officers and Admins as they have special privileg
 Their credentials are stored manually, and they are also provided with the forget password option.
 
 **Student Features**
-
 Registration and Login:
 Students can register and log in to the website.
 After logging in, the student can:
