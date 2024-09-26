@@ -4,10 +4,15 @@ Our website is designed for:Students sitting for placements,Companies approachin
 Main Page Features
 Multiple login options for different users:
 Student
+
 Company
+
 Admin
+
 TPC Officer
+
 Alumni
+
 Option to see trends in IIT Patna.
 
 **Common Features**
