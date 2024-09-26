@@ -1,4 +1,5 @@
 **Training and Placement Cell Website**
+
 Our website is designed for:Students sitting for placements,Companies approaching the college for recruitment,TPC officers maintaining placement records,Alumni of the campus and their current job field or work details.
 Main Page Features
 Multiple login options for different users:
@@ -10,6 +11,7 @@ Alumni
 Option to see trends in IIT Patna.
 
 **Common Features**
+
 Password Restrictions: All registration and login pages have password length and character restrictions.
 Forget Password Option: A reset password mail is sent to the user's registered email.
 Admin and TPC Officer Access:
@@ -17,6 +19,7 @@ No registration option for TPC officers and Admins as they have special privileg
 Their credentials are stored manually, and they are also provided with the forget password option.
 
 **Student Features**
+
 Registration and Login:
 Students can register and log in to the website.
 After logging in, the student can:
@@ -27,6 +30,7 @@ Queries are directly sent to TPC for resolution.
 Upload and display their photo.
 
 **Company Features**
+
 Login and Role Offering:
 Companies can log in and:
 Provide details about the roles they are offering.
@@ -35,6 +39,7 @@ View details of students who have applied to their company.
 Send queries to TPC, which are directly sent to the TPC officer's page for resolution.
 
 **TPC Officer Features**
+
 Statistics and Data Access:
 TPC officers have access to statistics about:
 The number of students placed.
@@ -45,6 +50,7 @@ TPC officers can sort and filter student and company details based on various at
 Example: View the number of students placed in a particular company or check the highest package offered to students.
 
 **Admin Features**
+
 Login:
 Admins have pre-assigned login credentials.
 If the admin forgets their password, a reset mail is sent to their webmail.
@@ -54,6 +60,7 @@ Extract, Insert, Update, Delete information using SQL queries.
 They can provide additional information to the TPC Officer if requested.
 
 **Alumni Features**
+
 Login and Registration:
 Alumni can log in using their roll number and password.
 In case they forget their password or don't have access to their registration data, they can:
